@@ -1372,6 +1372,8 @@ section {
 .contenedor {
   max-width: 1000px;
   display: flex;
+  overflow-x:scroll;
+  overflow-y: hidden;
   margin: 50px 0;
   flex-wrap: wrap;
   justify-content: space-around;
