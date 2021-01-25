@@ -1374,10 +1374,10 @@ section {
   display: grid;
   overflow-x:scroll;
   overflow-y: hidden;
-  margin: 50px 0;
+  margin: auto auto;
   flex-wrap: wrap;
   justify-content: space-around;
-  grid-template-columns: repeat(2,auto);
+  grid-template-columns: repeat(auto,auto);
   grid-gap: 0 50px;
   
   padding: 100px 300px;
