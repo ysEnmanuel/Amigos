@@ -1,6 +1,36 @@
 {
-  "hosting": {
-    "public": "build",
-    "cleanUrls": true
+    "hosting": {
+      "public": "build",
+      "rewrites": [
+        {
+          "source": "/",
+          "destination": "/index.html"
+        },
+        {
+          "source": "/DelitosInfortmaticos",
+          "destination": "/Delitos Infortmaticos.html"
+        },
+        {
+          "source": "/DeudoresPorAlimentos",
+          "destination": "/Deudores Por Alimentos.html"
+        },
+        {
+            "source": "/Estafadores",
+            "destination": "/Estafadores.html"
+        },
+        {
+            "source": "/Infidelidades",
+            "destination": "/Infidelidades.html"
+        },
+        {
+            "source": "/RoboSistematico",
+            "destination": "/Robo Sistematico.html"
+        }, 
+        {
+          "source": "/UbicarVehiculos",
+          "destination": "/Ubicar Vehiculos.html"
+        }
+  
+      ]
+    }
   }
-}
