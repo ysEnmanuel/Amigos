@@ -1,2 +1,2 @@
 # Amigos
- 🔥✨ Good And Clean Code 🔥✨
+ Good And Clean Code
