@@ -24,6 +24,12 @@
   <link rel="stylesheet" type="text/css" href="./slick/slick.css">
   <link rel="stylesheet" type="text/css" href="./slick/slick-theme.css">
   <style type="text/css">
+    html,
+    body {
+      margin: 0;
+      padding: 0;
+    }
+
     * {
       box-sizing: border-box;
     }
@@ -51,13 +57,9 @@
       transition: all ease-in-out .3s;
     }
 
-    .slick-active {
-      opacity: 5;
-    }
+    .slick-active {}
 
-    .slick-current {
-      opacity: 5
-    }
+    .slick-current {}
   </style>
 </head>
 
@@ -171,6 +173,7 @@
         </div>
       </div>
     </section><!-- End Featured Services Section -->
+    <!-- Slick Slider -->
     <section class="regular slider">
       <div>
         <img src="assets/img/800x800.png">
@@ -192,7 +195,7 @@
       </div>
     </section <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript">
     </script>
-    </script>
+    <!-- About -->
     <section id="about" class="about">
       <div class="container">
 
@@ -666,11 +669,11 @@
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
   <script src="assets/js/wb.js"></script>
+  <!-- Slick :D -->
   <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
-  <script src="/slick/slick.js" type="text/javascript" charset="utf-8"></script>
-  <script src="index.js"></script>
+  <script src="./slick/slick.js" type="text/javascript" charset="utf-8"></script>
   <script type="text/javascript">
-    $(document).on('ready', function() {
+    $(document).on('ready', function () {
       $(".vertical-center-4").slick({
         dots: true,
         vertical: true,
@@ -726,7 +729,7 @@
         infinite: true
       });
     });
-</script>
+  </script>
 </body>
- 
+
 </html>
