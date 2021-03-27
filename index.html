@@ -4,7 +4,6 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-
   <title>Buscando Personas</title>
   <meta content="" name="descriptison">
   <meta content="" name="keywords">
@@ -20,7 +19,6 @@
   <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
   <link href="assets/css/style.css" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-  <meta charset="UTF-8">
   <link rel="stylesheet" type="text/css" href="./slick/slick.css">
   <link rel="stylesheet" type="text/css" href="./slick/slick-theme.css">
   <style type="text/css">
@@ -103,9 +101,17 @@
           <li><a href="#team">Directores</a></li>
         </ul>
       </nav><!-- .nav-menu -->
-
       <a href="#contact" class="get-started-btn scrollto">Contacto</a>
 
+      <div class="botondark" onclick="cambiarModo()">
+        <div id="id-sun" class="btn-mode sun activo">
+          <i class="fas fa-sun"></i>
+        </div>
+        <div id="id-moon" class="btn-mode moon">
+          <i class="fas fa-moon"></i>
+        </div>
+      </div>
+    </div>
     </div>
   </header><!-- End Header -->
 
@@ -131,9 +137,6 @@
     </div>
 
   </section><!-- End Hero -->
-
-  <section></section>
-
   <main id="main">
 
     <!-- ======= Featured Services Section ======= -->
@@ -350,11 +353,11 @@
         <div class="row portfolio-container">
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
             <a href="portfolio-details.html">
-            <img src="assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Caso 1</h4>
-              <p>caso</p>
-            </div>
+              <img src="assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Caso 1</h4>
+                <p>caso</p>
+              </div>
           </div> </a>
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-web">
@@ -725,6 +728,20 @@
         infinite: true
       });
     });
+  </script>
+  <script type="text/javascript">
+    function cambiarModo() {
+      var cuerpoweb = document.body;
+      cuerpoweb.classList.toggle("oscuro");
+    }
+    document.getElementById('id-sun').onclick = function () {
+      document.getElementById('id-moon').classList.remove('activo')
+      this.classList.add('activo')
+    }
+    document.getElementById('id-moon').onclick = function () {
+      document.getElementById('id-sun').classList.remove('activo')
+      this.classList.add('activo')
+    }
   </script>
 </body>
 
