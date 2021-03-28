@@ -1465,25 +1465,38 @@ section {
   color: #ffcd5c !important;
 }
 
+
 .oscuro {
-  transition: background-color .5s;
+  transition: background-color .3s;
   background-color: #1f1f1f;
   color: #f1eded;
 }
 
-.oscuro #hero{
+.oscuro #header.header-scrolled {
+  box-shadow: 0px 2px 15px rgb(255 255 255 / 24%);
+}
+
+.oscuro .floating-wpp .floating-wpp-popup.active .floating-wpp-message {
+  color: #000;
+}
+
+.oscuro #hero h1 {
+  color: #ffff;
+}
+
+.oscuro #hero {
   background-color: #1f1f1f;
 }
 
-.oscuro .section-bg{
+.oscuro .section-bg {
   background-color: #1f1f1f;
 }
 
-.oscuro .contact .info{
+.oscuro .contact .info {
   background-color: #373737;
 }
 
-.oscuro .featured-services .icon-box{
+.oscuro .featured-services .icon-box {
   background-color: #303234;
   border: 1px solid #303234;
   color: #fff;
@@ -1494,56 +1507,73 @@ section {
   border: 1px solid #303234;
 }
 
-.oscuro .team .member{
+.oscuro .team .member {
   background: #303234;
 }
 
-.oscuro .testimonials .testimonial-item p{
+.oscuro .testimonials .testimonial-item p {
   background: #303234;
 }
 
-.oscuro .testimonials .testimonial-item h3{
+.oscuro .testimonials .testimonial-item h3 {
   color: #fff;
 }
 
-.oscuro #footer{
+.oscuro #footer {
   background-color: #3E3E3E;
   color: #fff;
 }
 
-.oscuro #header{
-  background:#2A2A2A
+.oscuro #header {
+  background: #272727
 }
 
-.oscuro .contact .info i{
+.oscuro .contact .info i {
   background: rgb(86 86 86);
 }
 
-.oscuro #footer .footer-bottom{
+.oscuro #footer .footer-bottom {
   border-top: 1px solid #ffffff00
 }
 
-.oscuro .get-started-btn{
+.oscuro .get-started-btn {
   background: #404346;
   border: 1px solid #404346;
 }
 
-.oscuro .nav-menu a{
+.oscuro .nav-menu a {
   color: #e0e0e0;
 }
 
-.oscuro a{
+.oscuro a {
   color: #00ff84;
 }
 
-.oscuro .get-started-btn:hover{
+.oscuro .get-started-btn:hover {
   background: #16df7e;
 }
 
-.oscuro .jotform-form{
+.oscuro .jotform-form {
   background-color: black;
 }
 
-.oscuro .featured-services .title a{
+.oscuro .featured-services .title a {
   color: rgb(255 255 255);
 }
+
+.oscuro .centrado {
+  background-color: #1f1f1f;
+}
+
+.directores {
+  margin: auto;
+  max-width: 40%;
+  justify-content: center;
+}
+
+@media (max-width: 768px) {
+  .directores {
+    max-width: 80%;
+    margin: auto;
+    justify-content: center;
+  }
