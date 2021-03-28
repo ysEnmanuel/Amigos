@@ -656,13 +656,10 @@ section {
   align-items: center;
   justify-content: center;
   margin-bottom: 20px;
-  transition: ease-in-out 0.3s;
 }
 
 .services .icon-box .icon i {
-  color: #16df7e;
   font-size: 36px;
-  transition: 0.3s;
 }
 
 .services .icon-box h4 {
@@ -898,6 +895,7 @@ section {
 .cta .cta-btn:hover {
   background: #206bfb;
   border-color: #206bfb;
+  color: #fff;
 }
 
 /*--------------------------------------------------------------
@@ -1589,6 +1587,13 @@ section {
   background: #2e2e2e;
 }
 
+.oscuro a:hover{
+  color: #206bfb;;
+}
+
+.oscuro .icon:hover{
+  color: #206bfb;
+}
 .directores {
   margin: auto;
   max-width: 40%;
