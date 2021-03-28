@@ -1565,6 +1565,30 @@ section {
   background-color: #1f1f1f;
 }
 
+.oscuro .testimonials .testimonial-item .testimonial-img{
+  border: 6px solid #383838;
+}
+
+.oscuro .slick-dots li.slick-active button:before {
+  color: white;
+}
+
+.oscuro .slick-dots li button:before {
+  color: white;
+}
+
+.oscuro .slick-prev:before, .slick-next:before {
+  color: white;
+}
+
+.oscuro .slick-prev:before, .slick-next:before {
+  color: white;
+}
+
+.oscuro ::-webkit-scrollbar-track {
+  background: #2e2e2e;
+}
+
 .directores {
   margin: auto;
   max-width: 40%;
@@ -1577,3 +1601,8 @@ section {
     margin: auto;
     justify-content: center;
   }
+}
+
+.hiden{
+  overflow: hidden;
+}
