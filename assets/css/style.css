@@ -17,6 +17,10 @@ a {
   color: #14c871;
 }
 
+.mobile-nav a {
+  font-weight: 700;
+}
+
 a:hover {
   color: #206bfb;
   text-decoration: none;
@@ -263,6 +267,12 @@ h6 {
 
 .mobile-nav {
   position: fixed;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  transition: .6s;
+  position: fixed;
   top: 55px;
   right: 15px;
   bottom: 15px;
@@ -275,6 +285,7 @@ h6 {
   visibility: hidden;
   border-radius: 10px;
   padding: 10px 0;
+  transition: .6s;
 }
 
 .mobile-nav * {
@@ -284,12 +295,14 @@ h6 {
 }
 
 .mobile-nav a {
-  display: block;
   position: relative;
   color: #5f687b;
   padding: 10px 20px;
-  font-weight: 500;
   outline: none;
+}
+
+.mobile-nav li{
+  margin: 20px 0;
 }
 
 .mobile-nav a:hover,
@@ -307,6 +320,23 @@ h6 {
   right: 15px;
 }
 
+.mobile-nav a::before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 15px;
+  background: #16df7e;
+  bottom: 0;
+  left: 0;
+  border-radius: 15px;
+  z-index: -1;
+  transition: .3s linear;
+}
+
+.mobile-nav a:hover::before {
+  width: 100%;
+}
+
 .mobile-nav .active.drop-down>a:after {
   content: "\eaa1";
 }
@@ -321,6 +351,7 @@ h6 {
 }
 
 .mobile-nav .drop-down li {
+  font-size: 40px;
   padding-left: 20px;
 }
 
@@ -344,6 +375,7 @@ h6 {
 .mobile-nav-active .mobile-nav {
   opacity: 1;
   visibility: visible;
+  font-size: 40px;
 }
 
 .mobile-nav-active .mobile-nav-toggle i {
@@ -1563,7 +1595,7 @@ section {
   background-color: #1f1f1f;
 }
 
-.oscuro .testimonials .testimonial-item .testimonial-img{
+.oscuro .testimonials .testimonial-item .testimonial-img {
   border: 6px solid #383838;
 }
 
@@ -1575,11 +1607,13 @@ section {
   color: white;
 }
 
-.oscuro .slick-prev:before, .slick-next:before {
+.oscuro .slick-prev:before,
+.slick-next:before {
   color: white;
 }
 
-.oscuro .slick-prev:before, .slick-next:before {
+.oscuro .slick-prev:before,
+.slick-next:before {
   color: white;
 }
 
@@ -1587,17 +1621,45 @@ section {
   background: #2e2e2e;
 }
 
-.oscuro a:hover{
-  color: #206bfb;;
+.oscuro a:hover {
+  color: #ffffff;
+  ;
 }
 
-.oscuro .icon:hover{
+.services a:hover {
   color: #206bfb;
 }
+
+.oscuro .mobile-nav {
+  background: rgb(31, 31, 31);
+
+}
+
+.oscuro .mobile-nav a {
+  color: rgb(189, 189, 189);
+}
+
+.team .member img {
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
+
+.oscuro .team .member {
+  border-radius: 25px;
+}
+
 .directores {
   margin: auto;
-  max-width: 40%;
+  max-width: 35%;
   justify-content: center;
+}
+
+@media (max-width: 1000px) {
+  .directores {
+    max-width: 60%;
+    margin: auto;
+    justify-content: center;
+  }
 }
 
 @media (max-width: 768px) {
@@ -1608,6 +1670,10 @@ section {
   }
 }
 
-.hiden{
+.hiden {
   overflow: hidden;
+}
+
+.img-fluid {
+  border-radius: 25px;
 }
