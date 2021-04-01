@@ -1,3 +1,12 @@
+@media (max-width: 768px) {
+  .centrado{
+    z-index: 1000;
+    width: 768px;
+    height: 100vh;
+    background-color:#ffff;
+    position: fixed;
+  }
+}
 .centrado{
   z-index: 1000;
   width: 100%;

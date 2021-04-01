@@ -22,7 +22,7 @@ a {
 }
 
 a:hover {
-  color: #206bfb;
+  color: #0059ff;
   text-decoration: none;
 }
 
@@ -274,7 +274,7 @@ h6 {
   transition: .6s;
   position: fixed;
   top: 55px;
-  right: -100%;
+  right: 15px;
   bottom: 15px;
   left: 15px;
   z-index: 9999;
@@ -956,7 +956,7 @@ section {
 }
 
 .team .member span {
-  padding-bottom: 20px;
+  padding-bottom: 30px;
   font-style: italic;
   display: block;
   font-size: 13px;
@@ -1503,7 +1503,7 @@ section {
 
 .oscuro {
   transition: background-color .3s;
-  background-color: #1f1f1f;
+  background-color: #18191a;
   color: #f1eded;
 }
 
@@ -1520,34 +1520,34 @@ section {
 }
 
 .oscuro #hero {
-  background-color: #1f1f1f;
+  background-color: #18191a;
 }
 
 .oscuro .section-bg {
-  background-color: #1f1f1f;
+  background-color: #18191a;
 }
 
 .oscuro .contact .info {
-  background-color: #373737;
+  background-color: #242526;
 }
 
 .oscuro .featured-services .icon-box {
-  background-color: #303234;
-  border: 1px solid #303234;
+  background-color: #242526;
+  border: 1px solid #242526;
   color: #fff;
 }
 
 .oscuro .services .icon-box {
-  background-color: #303234;
-  border: 1px solid #303234;
+  background-color: #242526;
+  border: 1px solid #242526;
 }
 
 .oscuro .team .member {
-  background: #303234;
+  background: #242526;
 }
 
 .oscuro .testimonials .testimonial-item p {
-  background: #303234;
+  background: #242526;
 }
 
 .oscuro .testimonials .testimonial-item h3 {
@@ -1555,16 +1555,16 @@ section {
 }
 
 .oscuro #footer {
-  background-color: #3E3E3E;
+  background-color: #242526;
   color: #fff;
 }
 
 .oscuro #header {
-  background: #272727
+  background: #242526;
 }
 
 .oscuro .contact .info i {
-  background: rgb(86 86 86);
+  background: #3a3b3c;
 }
 
 .oscuro #footer .footer-bottom {
@@ -1572,16 +1572,20 @@ section {
 }
 
 .oscuro .get-started-btn {
-  background: #404346;
-  border: 1px solid #404346;
+  background: #38393c;
+  border: 1px solid #38393c;
 }
 
 .oscuro .nav-menu a {
-  color: #e0e0e0;
+  color: #ffffff;
 }
 
 .oscuro a {
   color: #00ff84;
+}
+
+.oscuro .section-title{
+  color: white;
 }
 
 .oscuro .get-started-btn:hover {
@@ -1597,7 +1601,7 @@ section {
 }
 
 .oscuro .centrado {
-  background-color: #1f1f1f;
+  background-color: #18191a;
 }
 
 .oscuro .testimonials .testimonial-item .testimonial-img {
