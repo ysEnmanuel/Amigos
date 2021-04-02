@@ -313,15 +313,13 @@ h6 {
 }
 
 .mobile-nav .drop-down>a:after {
-  content: "\ea99";
-  font-family: IcoFont;
+  content: "\f0c9";
   padding-left: 10px;
   position: absolute;
   right: 15px;
 }
 
 .mobile-nav a::before {
-  content: "";
   position: absolute;
   width: 0;
   height: 15px;
@@ -338,7 +336,6 @@ h6 {
 }
 
 .mobile-nav .active.drop-down>a:after {
-  content: "\eaa1";
 }
 
 .mobile-nav .drop-down>a {
@@ -1507,6 +1504,10 @@ section {
   color: #f1eded;
 }
 
+.oscuro::-webkit-scrollbar-track{
+    background: #2f2f2f;
+}
+
 .oscuro #header.header-scrolled {
   box-shadow: 0px 2px 15px rgb(255 255 255 / 24%);
 }
@@ -1728,3 +1729,6 @@ section {
     margin-left: -15px;
   }
 }
+
+.icofont-close:before{content:"\eee4"}
+.icofont-navigation-menu:before{content:"\efa2"}."\eee4"
