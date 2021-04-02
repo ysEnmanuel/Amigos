@@ -591,14 +591,13 @@ section {
   font-size: 36px;
 }
 
-.featured-services .title {
+.featured-services .icon-box h6{
   font-weight: 600;
   margin-bottom: 15px;
   font-size: 18px;
 }
 
-.featured-services .title a {
-  color: #5f687b;
+.featured-services .icon-box h6 {
   transition: 0.3s;
 }
 
@@ -606,7 +605,7 @@ section {
   border-color: #eaecef;
 }
 
-.featured-services .icon-box:hover .title a {
+.featured-services .icon-box:hover h6 {
   color: #16df7e;
 }
 
@@ -1592,7 +1591,7 @@ section {
 }
 
 .services .icon-box:hover {
-  color: #002fff;
+  color: #206bfb;
   transition: all 0.3s;
   transform: scale(1.1);
 }
