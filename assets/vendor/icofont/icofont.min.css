@@ -1,3 +1,31 @@
-/*! 
+	/*! 
 * @package IcoFont
-*/@font-face{font-family:IcoFont;font-weight:400;font-style:Regular;src:url(fonts/icofont.woff) format("woff")}[class*=" icofont-"],[class^=icofont-]{font-family:IcoFont!important;speak:none;font-style:normal;font-weight:400;font-variant:normal;text-transform:none;white-space:nowrap;word-wrap:normal;direction:ltr;line-height:1;-webkit-font-feature-settings:"liga";-webkit-font-smoothing:antialiased}.icofont-close:before{content:"\eee4"}.icofont-navigation-menu:before{content:"\efa2"}."\eee4"
+*/
+	@font-face {
+		font-family: IcoFont;
+		font-weight: 400;
+		font-style: Regular;
+		src: url(fonts/icofont.woff) format("woff")
+	}
+
+	[class*=" icofont-"],
+	[class^=icofont-] {
+		font-family: IcoFont !important;
+		font-style: normal;
+		font-weight: 400;
+		font-variant: normal;
+		text-transform: none;
+		white-space: nowrap;
+		word-wrap: normal;
+		direction: ltr;
+		line-height: 1;
+		-webkit-font-smoothing: antialiased
+	}
+
+	.icofont-close:before {
+		content: "\eee4"
+	}
+
+	.icofont-navigation-menu:before {
+		content: "\efa2"
+	}
