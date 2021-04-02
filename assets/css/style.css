@@ -335,9 +335,6 @@ h6 {
   width: 100%;
 }
 
-.mobile-nav .active.drop-down>a:after {
-}
-
 .mobile-nav .drop-down>a {
   padding-right: 35px;
 }
@@ -1731,4 +1728,3 @@ section {
 }
 
 .icofont-close:before{content:"\eee4"}
-.icofont-navigation-menu:before{content:"\efa2"}."\eee4"
