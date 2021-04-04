@@ -17,7 +17,6 @@
 .loader {
   text-align: center;
   align-items: center;
-  width: 250px;
   height: 50px;
   line-height: 50px;
   text-align: center;
@@ -40,6 +39,7 @@
   position: absolute;
   -webkit-animation: load 0.7s infinite alternate ease-in-out;
           animation: load 0.7s infinite alternate ease-in-out;
+  left: -30px;
 }
 .loader::before {
   top: 0;
@@ -50,7 +50,7 @@
 
 @-webkit-keyframes load {
   0% {
-    left: 0;
+    left: -35px;
     height: 30px;
     width: 100%;
   }
@@ -59,7 +59,7 @@
     width: 100%;
   }
   100% {
-    left: 235px;
+    left: 330px;
     height: 30px;
     width: 100%;
   }
@@ -67,7 +67,7 @@
 
 @keyframes load {
   0% {
-    left: 0;
+    left: -35px;
     height: 30px;
     width: 15px;
   }
@@ -76,7 +76,7 @@
     width: 40px;
   }
   100% {
-    left: 235px;
+    left: 330px;
     height: 30px;
     width: 15px;
   }
