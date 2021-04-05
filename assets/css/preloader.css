@@ -50,7 +50,7 @@
 
 @-webkit-keyframes load {
   0% {
-    left: -30px;
+    left: -25px;
     height: 30px;
     width: 100%;
   }
@@ -59,7 +59,7 @@
     width: 100%;
   }
   100% {
-    left: 320px;
+    left: 317px;
     height: 30px;
     width: 100%;
   }
@@ -67,7 +67,7 @@
 
 @keyframes load {
   0% {
-    left: -30px;
+    left: -25px;
     height: 30px;
     width: 15px;
   }
@@ -76,7 +76,7 @@
     width: 40px;
   }
   100% {
-    left: 320px;
+    left: 317px;
     height: 30px;
     width: 15px;
   }

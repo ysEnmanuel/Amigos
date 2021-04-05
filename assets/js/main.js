@@ -4,7 +4,7 @@
  * Author: BootstrapMade.com
  * License: https://bootstrapmade.com/license/
  */
-!(function ($) {
+ !(function ($) {
   "use strict";
 
   // Smooth scroll for the navigation menu and links with .scrollto classes
@@ -35,7 +35,7 @@
 
         if ($('body').hasClass('mobile-nav-active')) {
           $('body').removeClass('mobile-nav-active');
-          $('.mobile-nav-toggle i').toggleClass('icofont-navigation-menu icofont-close');
+          $('.mobile-nav-toggle i').toggleClass('far fa-bars far fa-times');
           $('.mobile-nav-overly').fadeOut();
         }
         return false;
