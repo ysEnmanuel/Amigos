@@ -1002,6 +1002,15 @@ section {
   background-color: #f9f9fa;
 }
 
+.contact .info1 {
+  font-size: 1px;
+  border-top: 3px solid #16df7e;
+  border-bottom: 3px solid #16df7e;
+  width: 100%;
+  background-color: #f9f9fa;
+}
+
+
 .contact .info i {
   font-size: 20px;
   color: #16df7e;
@@ -1504,10 +1513,6 @@ section {
   background: #16df7e;
 }
 
-.oscuro .jotform-form {
-  background-color: black;
-}
-
 .oscuro .featured-services .title a {
   color: rgb(255 255 255);
 }
@@ -1639,4 +1644,20 @@ section {
     margin-right: -15px;
     margin-left: -15px;
   }
+}
+
+.oscuro .contact .info1{
+  background-color: #242526;
+}
+
+.oscuro .form-all {
+  background-color: #3a3b3c;
+}
+
+.oscuro .form-textbox {
+  background-color: #606060;
+}
+
+.oscuro .form-textarea {
+  background-color: #606060;
 }
