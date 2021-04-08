@@ -1661,3 +1661,11 @@ section {
 .oscuro .form-textarea {
   background-color: #606060;
 }
+
+.oscuro .section-title span {
+  color: #303235;
+}
+
+.oscuro .section-title h2 {
+  color: #f0f1f3;
+}
