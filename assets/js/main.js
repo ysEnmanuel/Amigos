@@ -123,7 +123,7 @@
   });
 
   if ($(window).scrollTop() > 100) {
-    $('#header').addClass('header-scrolled');
+    $('#header').addClass('header-scrolledd');
   }
 
   // Back to top button

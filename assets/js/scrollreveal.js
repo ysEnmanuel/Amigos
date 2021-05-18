@@ -41,7 +41,7 @@ window.sr = ScrollReveal();
   })
   sr.reveal('.row', {
     duration: 3500,
-    origin: 'top',
+    origin: 'top', 
     distance: '-100px'
   })
   sr.reveal('.services', {
