@@ -5,7 +5,7 @@
   "main": "slick/slick.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/kenwheeler/slick.git"
+    "url": "git+https://github.com/kenwheeler/slick.git"
   },
   "keywords": [
     "carousel",
@@ -16,29 +16,11 @@
   ],
   "author": "Ken Wheeler <ken_wheeler@me.com>",
   "contributors": [
-    {
-      "name": "ken wheeler",
-      "email": "ken_wheeler@me.com",
-      "url": "http://kenwheeler.github.io/"
-    },
-    {
-      "name": "simon goellner",
-      "email": "simey.me@gmail.com",
-      "url": "http://simey.me"
-    },
-    {
-      "name": "ahmad el-alfy",
-      "email": "ahmadalfy@gmail.com",
-      "url": "http://www.alfy.me"
-    },
-    {
-      "name": "leggomuhgreggo",
-      "email": "gwestneat@gmail.com"
-    },
-    {
-      "name": "ashley mcknight",
-      "email": "ash@sharpteef.net"
-    }
+    "ken wheeler <ken_wheeler@me.com> (http://kenwheeler.github.io/)",
+    "simon goellner <simey.me@gmail.com> (http://simey.me)",
+    "ahmad el-alfy <ahmadalfy@gmail.com> (http://www.alfy.me)",
+    "leggomuhgreggo <gwestneat@gmail.com>",
+    "ashley mcknight <ash@sharpteef.net>"
   ],
   "license": "MIT",
   "bugs": {
@@ -46,5 +28,12 @@
   },
   "peerDependencies": {
     "jquery": ">=1.8.0"
+  },
+  "homepage": "https://github.com/kenwheeler/slick#readme",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "smooth-scrollbar": "^8.6.2"
   }
 }

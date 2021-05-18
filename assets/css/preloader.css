@@ -67,7 +67,7 @@
 
 @keyframes load {
   0% {
-    left: -25px;
+    left: -25apx;
     height: 30px;
     width: 15px;
   }

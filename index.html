@@ -68,7 +68,7 @@
   </style>
 </head>
 
-<body style="font-size: 1rem;" class="hiden">
+<body style="font-size: 1rem;" class="hiden" id="my-scrollbar">
   <div class="centrado">
     <div class="loader">buscandopersonas.org</div>
   </div>
@@ -636,7 +636,7 @@
               type="text/javascript">
               </script>
               <script type="text/javascript">
-                  (function () {
+                (function () {
                   if (window.JotForm && JotForm.accessible) $('input_4').setAttribute('tabindex', 0);
                   if (window.JotForm && JotForm.accessible) $('input_18').setAttribute('tabindex', 0);
                   if (typeof wideArea !== 'undefined') {
@@ -1493,6 +1493,7 @@
                   margin-top: auto;
                   margin-top: initial;
                 }
+
                 /* Injected CSS Code */
               </style>
 
@@ -1735,6 +1736,9 @@
   <script src="assets/js/localstorage.js"></script>
   <!-- Slick :D -->
   <script src="./slick/slick.js" type="text/javascript" charset="utf-8"></script>
+  <!-- ScrollReveal -->
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script src="/assets/js/scrollreveal.js"></script>
   <script type="text/javascript">
     $(document).on('ready', function () {
       $(".vertical-center-4").slick({
@@ -1801,6 +1805,12 @@
         $('body').removeClass('hiden'); //quitar el cover
       }, 1500); //Después de 5s ocultar el preload
     });
+  </script>
+  <script src="/assets/js/smoothscroll.js"></script>
+  <script>
+    var Scrollbar = window.Scrollbar;
+  
+    Scrollbar.init(document.querySelector('#my-scrollbar'));
   </script>
 </body>
 
